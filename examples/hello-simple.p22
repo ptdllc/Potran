@@ -1,0 +1,6 @@
+Program HelloWorld {
+    Export Integer32::Function Main () {
+        OutputLine "Hello, World!";
+        Return 0;
+    };
+};

@@ -1,0 +1,24 @@
+[
+    {
+        'type': ['Program'], 
+        'value': 'HelloWorld', 
+        'params': [], 
+        'body': [
+            {
+                'type': ['Function', 'Integer32', 'Exported'], 
+                'value': 'Main', 
+                'params': [], 
+                'body': [
+                    {
+                        'type': 'OutputLine', 
+                        'value': '"Hello, World!"'
+                    }, 
+                    {
+                        'type': 'ReturnValue', 
+                        'value': '0'
+                    }
+                ]
+            }
+        ]
+    }
+]
