@@ -45,8 +45,8 @@ transformer = ast_utils.create_transformer(this_module, ToAst())
 def parse(text):
     tree = parser.parse(text)
     return transformer.transform(tree)
+contents = str()
 with open(sys.argv[1]) as file:
-    contents = str()
     for line in file.readlines():
         contents += line 
-    print(parse(contents))
+print(parse(contents))
